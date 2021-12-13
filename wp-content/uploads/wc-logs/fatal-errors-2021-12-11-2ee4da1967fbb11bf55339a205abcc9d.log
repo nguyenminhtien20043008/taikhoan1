@@ -1,0 +1,28 @@
+2021-12-11T02:57:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\github\training-cms\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\CustomerEffortScoreTracks.php on line 8
+
+2021-12-11T02:58:51+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in F:\github\training-cms\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 F:\github\training-cms\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 F:\github\training-cms\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('18211tt4361@gma...')
+#2 F:\github\training-cms\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 F:\github\training-cms\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 F:\github\training-cms\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 F:\github\training-cms\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 F:\github\training-cms\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in F:\github\training-cms\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-12-11T02:59:42+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in F:\github\training-cms\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 F:\github\training-cms\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 F:\github\training-cms\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('18211tt4361@gma...')
+#2 F:\github\training-cms\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 F:\github\training-cms\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 F:\github\training-cms\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 F:\github\training-cms\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 F:\github\training-cms\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in F:\github\training-cms\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-12-11T05:15:14+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in F:\github\training-cms\wp-includes\Requests\Transport\cURL.php on line 165
+
